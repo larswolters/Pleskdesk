@@ -2,4 +2,9 @@
 
 @tailwind components;
 
+.button {
+    @apply transition-all duration-200 whitespace-no-wrap px-4 py-2 text-sm font-semibold text-white uppercase rounded;
+    background-image: linear-gradient(to right, #3ec7e0, #526bf4);
+}
+
 @tailwind utilities;
